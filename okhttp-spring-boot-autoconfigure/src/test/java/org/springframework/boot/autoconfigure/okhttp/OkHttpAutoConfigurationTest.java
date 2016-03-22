@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springframework.boot.autoconfigure.retrofit;
+package org.springframework.boot.autoconfigure.okhttp;
 
 import okhttp3.OkHttpClient;
 import org.junit.After;
@@ -60,7 +60,7 @@ public class OkHttpAutoConfigurationTest {
         OkHttpClient okHttpClient = context.getBean(OkHttpClient.class);
 
         assertThat(okHttpClient).isNotNull();
-        assertThat(okHttpClient.connectTimeoutMillis()).isEqualTo((int)OkHttpProperties.DEFAULT_CONNECTION_TIMEOUT);
+        assertThat(okHttpClient.connectTimeoutMillis()).isEqualTo((int) OkHttpProperties.DEFAULT_CONNECTION_TIMEOUT);
         assertThat(okHttpClient.readTimeoutMillis()).isEqualTo((int)OkHttpProperties.DEFAULT_READ_TIMEOUT);
         assertThat(okHttpClient.writeTimeoutMillis()).isEqualTo((int)OkHttpProperties.DEFAULT_WRITE_TIMEOUT);
     }

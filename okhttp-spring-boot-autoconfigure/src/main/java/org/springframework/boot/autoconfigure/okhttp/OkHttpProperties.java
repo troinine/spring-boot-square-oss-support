@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springframework.boot.autoconfigure.retrofit;
+package org.springframework.boot.autoconfigure.okhttp;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
