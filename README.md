@@ -1,4 +1,7 @@
 # Spring Boot auto-configuration and starters for Retrofit and OkHttp
+
+[![Build Status](https://travis-ci.org/troinine/spring-boot-square-oss-support.svg?branch=master)](https://travis-ci.org/troinine/spring-boot-square-oss-support)
+
 **Work in progress**
 
 This module provides Spring Boot support for Square's Popular OSS libraries Retrofit 2 and OkHttp 3.
