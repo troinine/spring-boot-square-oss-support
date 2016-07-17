@@ -31,7 +31,7 @@ import retrofit2.Retrofit;
  * annotation.
  * <p>
  * The beans can't be annotated in the bean definition phase as the {@link Retrofit} bean is needed in order
- * to construct the actual service instances. In addtion, the service specific configurations are accessed
+ * to construct the actual service instances. In addition, the service specific configurations are accessed
  * through {@link RetrofitProperties} {@link org.springframework.boot.context.properties.ConfigurationProperties}
  *
  * @author troinine

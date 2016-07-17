@@ -56,10 +56,6 @@ public class OkHttpProperties {
         this.connectionTimeout = connectionTimeout;
     }
 
-    public static String getPREFIX() {
-        return PREFIX;
-    }
-
     public long getReadTimeout() {
         return readTimeout;
     }
