@@ -43,8 +43,8 @@ import java.lang.annotation.Target;
 public @interface RetrofitServiceScan {
     /**
      * Alias for the {@link #basePackages()} attribute. Allows for more concise annotation
-     * declarations e.g.: {@code @EntityScan("org.my.pkg")} instead of
-     * {@code @EntityScan(basePackages="org.my.pkg")}.
+     * declarations e.g.: {@code @RetrofitServiceScan("org.my.pkg")} instead of
+     * {@code @RetroFitServiceScan(basePackages="org.my.pkg")}.
      *
      * @return the base packages to scan
      */

@@ -39,8 +39,8 @@ import java.util.Set;
 /**
  * Bean definition registrar responsible for registering Retrofit specific bean definitions.
  * <p>
- * Currently registering nstantiation aware bean post processor adapter responsible for instantiating Retrofit
- * services and registering individual Retrofit service interfaces faces as bean definitions so that they can
+ * Currently registering instantiation aware bean post processor adapter responsible for instantiating Retrofit
+ * services and registering individual Retrofit service interfaces as bean definitions so that they can
  * instantiated by the post processor adapter.
  *
  * @author troinine
